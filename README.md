@@ -85,7 +85,7 @@ NEXT_PUBLIC_CONVEX_URL=
 ```bash
 # Clone the repository
 git clone https://github.com/vikasyadavvvv/IronMentor.git
-cd ironmentor
+cd IronMentor
 
 # Install dependencies
 npm install
