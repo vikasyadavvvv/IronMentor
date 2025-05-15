@@ -77,13 +77,14 @@ NEXT_PUBLIC_VAPI_API_KEY=
 # Convex Database
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
+```
 
 
 ## 🛠 Getting Started
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/fitai.git
+git clone https://github.com/vikasyadavvvv/IronMentor
 cd fitai
 
 # Install dependencies
