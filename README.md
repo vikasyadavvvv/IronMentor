@@ -77,3 +77,40 @@ NEXT_PUBLIC_VAPI_API_KEY=
 # Convex Database
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
+
+
+## 🛠 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/fitai.git
+cd fitai
+
+# Install dependencies
+npm install
+
+# Create a .env.local file and add the following environment variables:
+# (Fill in your actual keys)
+# 
+# NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+# CLERK_SECRET_KEY=
+# NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+# NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+# NEXT_PUBLIC_VAPI_WORKFLOW_ID=
+# NEXT_PUBLIC_VAPI_API_KEY=
+# CONVEX_DEPLOYMENT=
+# NEXT_PUBLIC_CONVEX_URL=
+
+# Run the development server
+npm run dev
+
+# Open in your browser
+# http://localhost:3000
+
+
+# Build and start the production server
+npm run build
+npm run start
+
+# Or deploy instantly by connecting your GitHub repository to Vercel
+
