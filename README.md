@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💪 FitAI - Smart Fitness Companion
 
-## Getting Started
+A smart fitness application powered by AI, offering **personalized workout and diet programs** through a **voice-enabled assistant**. Built with cutting-edge technologies like **Next.js**, **Tailwind CSS**, **Vapi**, **Clerk**, **Convex**, and **Gemini AI**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js** – Full-stack React framework  
+- **React.js** – Frontend UI components  
+- **Tailwind CSS + Shadcn UI** – Utility-first styling & elegant UI  
+- **Vapi** – Voice AI assistant integration  
+- **Gemini AI** – LLM for intelligent fitness recommendations  
+- **Clerk** – User authentication and authorization  
+- **Convex** – Real-time database and backend  
+- **Typescript** – Type-safe development  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Features
 
-## Learn More
+- 🎙️ **AI Voice Assistant**  
+  Converse with an intelligent voice agent to discuss your fitness goals, preferences, and injuries.
 
-To learn more about Next.js, take a look at the following resources:
+- 🏋️ **Personalized Workout Plans**  
+  Automatically generated workouts tailored to your level and needs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🥗 **Custom Diet Programs**  
+  Nutrition plans adapted to your dietary requirements and allergies.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔐 **Authentication**  
+  Login via GitHub, Google, or email/password using Clerk.
 
-## Deploy on Vercel
+- 🧠 **LLM-Generated Fitness Programs**  
+  Backed by Gemini AI for hyper-personalized training.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 💾 **Program Management**  
+  View, manage, and activate your fitness routines with ease.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🎬 **Real-time Updates**  
+  Programs update instantly with Convex DB.
+
+- 💻 **Modern UI/UX**  
+  Fully responsive layouts with client/server components.
+
+---
+
+## 📁 Project Structure
+
+- `app/` – Pages and layouts  
+- `components/` – Reusable UI elements  
+- `lib/` – Helper functions and API clients  
+- `convex/` – Convex DB functions  
+- `hooks/` – Custom React hooks  
+- `middleware.ts` – Clerk middleware  
+- `.env` – API keys and secrets  
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env.local` file and add the following:
+
+```env
+# Clerk Authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+# Clerk Redirect URLs
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+# Vapi Voice AI
+NEXT_PUBLIC_VAPI_WORKFLOW_ID=
+NEXT_PUBLIC_VAPI_API_KEY=
+
+# Convex Database
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
