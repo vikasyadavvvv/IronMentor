@@ -1,4 +1,4 @@
-# 💪 FitAI - Smart Fitness Companion
+# 💪 IronMentor - Smart Fitness Companion
 
 A smart fitness application powered by AI, offering **personalized workout and diet programs** through a **voice-enabled assistant**. Built with cutting-edge technologies like **Next.js**, **Tailwind CSS**, **Vapi**, **Clerk**, **Convex**, and **Gemini AI**.
 
